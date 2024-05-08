@@ -50,9 +50,10 @@ nav{
 .blog-posts h2{
     margin-left: 170px;
 }
-.view{
-    margin-left: 130px;
-    
+.view button{
+    margin-left: 613px;
+    width: 100px;
+    height: 50px;
 }
 .ads{
     width: 300px;
@@ -81,6 +82,7 @@ nav{
 }
 .blog-posts{
     display: grid;
+    
     /* grid-template-columns: repeat(3, 300px);
     grid-auto-rows: minmax(90px, auto);
     justify-content: center; */
@@ -151,12 +153,6 @@ a{
 .link{
     margin-left: 3px;
     list-style-type: none;
-}
-.b{
-   
-}
-.c{
-  
 }
 .d{
     background-color: white;
@@ -236,7 +232,7 @@ hr{
     }
     .links{
         list-style-type: none;
-        
+        margin-left: 5em;
     }
     nav a{
         text-decoration: none;
@@ -262,18 +258,18 @@ hr{
         margin: px;
         background-color: rgb(253, 253, 253);
         top: px;
-        width: 90.8%;
+        width: 96.3%;
     }
     .lady img{
-        width:280px;
+        width: 300px;
         height: 150px;
         padding: 10px;
-        margin-left: 3px;
+        margin-left: 9px;
     }
     .cont img{
-        width: 160px;
+        width: 180px;
         height: 100px;
-        margin-left: 35px;
+        margin-left: 25px;
         margin-top: -200px;
     }
     .ads{
@@ -318,10 +314,10 @@ hr{
         background-color: rgb(181, 182, 182);
         color: aqua;
         padding: 1px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     .top h1{
-        margin-left: 20px;
+        margin-left: 30px;
     }
     .top h1 a{
         font-size: 12px;
@@ -331,7 +327,7 @@ hr{
     .top img{
         width: 270px;
         height: 200px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     .next{
         display: flex;
@@ -344,10 +340,10 @@ hr{
         background-color: rgb(181, 182, 182);
         color: aqua;
         padding: 1px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     .next h1{
-        margin-left: 20px;
+        margin-left: 30px;
     }
     .next h1 a{
         font-size: 12px;
@@ -356,12 +352,15 @@ hr{
     .next img{
         width: 270px;
         height: 200px;
-        margin-left: 20px;
+        margin-left: 30px;
+    }
+    .view button{
+        margin-left: 120px;
     }
     .foot{
         display: flex;
         flex-direction: column;
-        width: 94%;
+        width: 99.5%;
         margin-top: 40px;
     }
     a{
@@ -389,238 +388,7 @@ hr{
         width: 230px;
         padding: 15px;
         margin: 10px;
-        margin-left: 20px;
-        border-radius: 5px;
-        margin-top: 20px;
-    }
-    .d h2{
-        text-align: center;
-        margin-top: 5px;
-    }
-    .d h5{
-        text-align: center;
-        margin-top: 10px;
-    }
-    .d input{
-      width: 210px;
-      margin-left: 18px;
-      margin-top: -2px;
-    }
-    .d button{
-    width: 220px;
-    height: 25px;
-    background-color: rgb(68, 0, 255);
-    color: white; 
-    border: none;
-    margin-left: 16px;
-    
-    }
-    hr{
-        margin-top: -2px;
-        background-color: #d01a1a;
-        width: 195px;
-    } 
-    .end{
-        display: flex;
-        flex-direction: column;
-        padding: 15px;
-        margin: px;
-        background-color: rgb(202, 202, 202);
-        justify-content: space-evenly;
-        width: 91%;
-    }
-    .e{
-        margin-left: 17px; 
-    }
-    .e img{
-        width: 80px;
-    }
-    .f{
-        display: flex;
-        flex-direction: row;
-        margin-left: 17px;
-    }
-    .linke{
-        margin-right: 10px;
-        list-style-type: none;
-        font-size: 10px;
-    }
-}   
-
-
-
-@media screen and (min-width: 351px) {
-    .log img{
-        width: 100px;
-        height: 36px;
-        
-    }
-    .links{
-        list-style-type: none;
-        
-    }
-    nav a{
-        text-decoration: none;
-        color: black;
-        text-transform: capitalize;
-        font-weight: bold;
-    }
-    nav a:hover{
-        background-color: aqua;
-        color: blue;
-    }
-    nav{
-        display: flex;
-        flex-direction: column;
-        
-        
-    }
-    .header-cont{
-        position: sticky;
-        display: flex;
-        justify-content: space-around;
-        padding: x;
-        margin: px;
-        background-color: rgb(253, 253, 253);
-        top: px;
-        width: 90.8%;
-    }
-    .lady img{
-        width:280px;
-        height: 150px;
-        padding: 10px;
-        margin-left: 3px;
-    }
-    .cont img{
-        width: 160px;
-        height: 100px;
         margin-left: 35px;
-        margin-top: -200px;
-    }
-    .ads{
-        width: 180px;
-        height: 50px;
-        margin: 10px;
-        padding: 20px;
-        background-color: rgb(202, 202, 202);
-        margin-right: auto;
-        margin-left: auto;
-        line-height: 1px;
-        margin-top: 20px;
-    }
-    .ads p{
-        font-size: 12px;
-        text-align: center;
-        
-    }
-    .ads h3{
-        text-align: center;
-        font-size: 15px;
-    }
-    .ads h6{
-        font-size: 9px;
-        text-align: center;
-        
-    }
-    .blog-posts h2{
-        margin-left: 20px;
-    }
-    .blog-posts{
-        display: flex;
-        flex-direction: column;
-    } 
-    .top{
-        display: flex;
-        flex-direction: column;
-    }
-    .top h6{
-        width: 55px;
-        height: 15px;
-        background-color: rgb(181, 182, 182);
-        color: aqua;
-        padding: 1px;
-        margin-left: 20px;
-    }
-    .top h1{
-        margin-left: 20px;
-    }
-    .top h1 a{
-        font-size: 12px;
-        font-weight: bolder;
-        
-    }
-    .top img{
-        width: 270px;
-        height: 200px;
-        margin-left: 20px;
-    }
-    .next{
-        display: flex;
-        flex-direction: column;
-            
-    }
-    .next h6{
-        width: 55px;
-        height: 15px;
-        background-color: rgb(181, 182, 182);
-        color: aqua;
-        padding: 1px;
-        margin-left: 20px;
-    }
-    .next h1{
-        margin-left: 20px;
-    }
-    .next h1 a{
-        font-size: 12px;
-        font-weight: bolder;
-    }
-    .next img{
-        width: 270px;
-        height: 200px;
-        margin-left: 20px;
-    }
-    .foot{
-        /* display: grid;
-        grid-template-columns: repeat(4, 250px);
-        justify-content: center;
-        background-color: rgb(202, 202, 202);
-        margin-top: 40px;
-        width: 99.7%;
-        padding: 5px;
-        top: 0px;
-        padding: 10px;
-        margin: -7.9px; */
-        display: flex;
-        flex-direction: column;
-        width: 94%;
-        margin-top: 40px;
-    }
-    a{
-        text-decoration: none;
-        color: black;
-        text-transform: capitalize;
-        font-weight: lighter;
-        line-height: 20px;
-    }
-    .foot h2{
-        font-size: 20px;
-        margin-left: 25px;
-    }
-    .link{
-        margin-left: 25px;
-        list-style-type: none;
-    }
-    .a p{
-        margin-left: 25px;
-        margin-right: 25px;
-    }
-    .d{
-        background-color: white;
-        height: 150px;
-        width: 230px;
-        padding: 15px;
-        margin: 10px;
-        margin-left: 20px;
         border-radius: 5px;
         margin-top: 20px;
     }
@@ -633,23 +401,23 @@ hr{
         margin-top: 10px;
     }
     .d input{
-      width: 210px;
-      margin-left: 18px;
+      width: 205px;
+      margin-left: 10px;
       margin-top: -2px;
     }
     .d button{
-    width: 220px;
+    width: 213px;
     height: 25px;
     background-color: rgb(68, 0, 255);
     color: white; 
     border: none;
-    margin-left: 16px;
+    margin-left: 10px;
     
     }
     hr{
         margin-top: -2px;
         background-color: #d01a1a;
-        width: 195px;
+        width: 250px;
     } 
     .end{
         display: flex;
@@ -658,7 +426,7 @@ hr{
         margin: px;
         background-color: rgb(202, 202, 202);
         justify-content: space-evenly;
-        width: 91%;
+        width: 96.3%;
     }
     .e{
         margin-left: 17px; 
@@ -678,9 +446,6 @@ hr{
     }
 }   
 
-    
-    
-    
 
 
 
@@ -688,6 +453,4 @@ hr{
 
 
 
-https//:milesrykerodazie-portfolio.vercel.app
 
-vercel.com  

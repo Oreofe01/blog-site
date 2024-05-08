@@ -85,7 +85,7 @@ h3{
 }
 .blog-posts{
     display: grid;
-    margin-left: 40px;
+    margin-left: -5px;
     /* grid-template-columns: repeat(3, 300px);
     grid-auto-rows: minmax(90px, auto);
     justify-content: center; */
@@ -94,8 +94,10 @@ h3{
 .blog-posts h2{
     margin-left: 170px;
 }
-.view{
-    margin-left: 620px;
+.view button{
+    margin-left: 613px;
+    width: 100px;
+    height: 50px;
 }
 .ads{
     width: 300px;
@@ -246,12 +248,6 @@ a{
 .link{
     margin-left: 3px;
     list-style-type: none;
-}
-.b{
-   
-}
-.c{
-  
 }
 .d{
     background-color: white;
@@ -407,7 +403,6 @@ hr{
         grid-auto-rows: minmax(90px, auto);
         justify-content: center; */
         
-    } */
     .blog-posts h2{
         margin-left: 170px;
     }
@@ -536,8 +531,8 @@ hr{
         text-align: center;
         
     }
-    .view{
-        margin-left: 130px;
+    .view button{
+        margin-left: 125px;
         
     }
     .foot{
@@ -584,19 +579,19 @@ hr{
         margin-top: 10px;
     }
     .d input{
-      width: 210px;
-      margin-left: 18px;
-      margin-top: -2px;
-    }
-    .d button{
-    width: 220px;
-    height: 25px;
-    background-color: rgb(68, 0, 255);
-    color: white; 
-    border: none;
-    margin-left: 16px;
-    
-    }
+        width: 205px;
+        margin-left: 10px;
+        margin-top: -2px;
+      }
+      .d button{
+      width: 213px;
+      height: 25px;
+      background-color: rgb(68, 0, 255);
+      color: white; 
+      border: none;
+      margin-left: 10px;
+      
+      }
     hr{
         margin-top: -2px;
         background-color: #d01a1a;
