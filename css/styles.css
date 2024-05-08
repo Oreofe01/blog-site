@@ -1,0 +1,693 @@
+.log img{
+    width: 158px;
+    height: 36px;
+    margin-right: 4.5em;
+}
+.links{
+    list-style-type: none;
+    margin-left: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color: aqua;
+    color: blue;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    
+}
+.header-cont{
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin: -7.9px;
+    background-color: rgb(253, 253, 253);
+    top: 0px;
+    width: 98.9%;
+}
+.lady img{
+    width: 1000px;
+    height: 560px;
+    padding: 10px;
+    margin-left: 155px;
+}
+.cont img{
+    width: 550px;
+    height: 300px;
+    margin-left: 190px;
+    margin-top: -250px;
+}
+ 
+
+.blog-posts h2{
+    margin-left: 170px;
+}
+.view{
+    margin-left: 130px;
+    
+}
+.ads{
+    width: 300px;
+    height: 55px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(202, 202, 202);
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 1px;
+    margin-top: 25px;
+}
+.ads p{
+    font-size: 15px;
+    text-align: center;
+    
+}
+.ads h3{
+    text-align: center;
+    
+}
+.ads h6{
+    font-size: 10px;
+    text-align: center;
+    
+}
+.blog-posts{
+    display: grid;
+    /* grid-template-columns: repeat(3, 300px);
+    grid-auto-rows: minmax(90px, auto);
+    justify-content: center; */
+}   
+
+.top{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-auto-rows: minmax(90px, auto);
+    justify-content: center;
+    gap: 45px;
+    margin-bottom: 50px;
+    
+}
+.top h6{
+    width: 55px;
+    height: 15px;
+    background-color: rgb(181, 182, 182);
+    color: aqua;
+    padding: 3px;
+}
+.top h1 a{
+    font-size: 25px;
+    
+}
+.next{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-auto-rows: minmax(90px, to);
+    justify-content: center;
+    gap: 45px;
+    margin-bottom: 50px;
+        
+}
+.next h6{
+    width: 55px;
+    height: 15px;
+    background-color: rgb(181, 182, 182);
+    color: aqua;
+    padding: 3px;
+}
+
+.next h1 a{
+    font-size: 25px;
+    
+}
+.foot{
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    justify-content: center;
+    background-color: rgb(202, 202, 202);
+    margin-top: 40px;
+    width: 99.7%;
+    padding: 5px;
+    top: 0px;
+    padding: 10px;
+    margin: -7.9px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: lighter;
+    line-height: 25px;
+}
+
+
+.link{
+    margin-left: 3px;
+    list-style-type: none;
+}
+.b{
+   
+}
+.c{
+  
+}
+.d{
+    background-color: white;
+    height: 170px;
+    width: 300px;
+    padding: -150px;
+    margin: -10px;
+    margin-left: -55px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.d h2{
+    text-align: center;
+    margin-top: 5px;
+}
+.d h5{
+    text-align: center;
+    margin-top: 10px;
+}
+.d input{
+  width: 248px;
+  margin-left: 23px;
+  margin-top: -2px;
+}
+.d button{
+width: 255px;
+height: 25px;
+background-color: rgb(68, 0, 255);
+color: white; 
+border: none;
+margin-left: 23px;
+
+}
+hr{
+    margin-top: -2px;
+    background-color: #d01a1a;
+    width: 1000px;
+} 
+.end{
+    display: flex;
+    padding: 15px;
+    margin: -7.9px;
+    background-color: rgb(202, 202, 202);
+    justify-content: space-evenly;
+}
+.e{
+    margin-right: 15em;
+}
+.f{
+    display: flex;
+    flex-direction: row;
+    
+}
+.linke{
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+
+
+
+/* @media  sreen and (max-width: 850px) {
+    
+}
+
+
+@media screen and (min-width: 350px) {
+    
+} */
+
+@media screen and (max-width:350px) {
+    
+    .log img{
+        width: 100px;
+        height: 36px;
+        
+    }
+    .links{
+        list-style-type: none;
+        
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    nav a:hover{
+        background-color: aqua;
+        color: blue;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .header-cont{
+        position: sticky;
+        display: flex;
+        justify-content: space-around;
+        padding: x;
+        margin: px;
+        background-color: rgb(253, 253, 253);
+        top: px;
+        width: 90.8%;
+    }
+    .lady img{
+        width:280px;
+        height: 150px;
+        padding: 10px;
+        margin-left: 3px;
+    }
+    .cont img{
+        width: 160px;
+        height: 100px;
+        margin-left: 35px;
+        margin-top: -200px;
+    }
+    .ads{
+        width: 180px;
+        height: 50px;
+        margin: 10px;
+        padding: 20px;
+        background-color: rgb(202, 202, 202);
+        margin-right: auto;
+        margin-left: auto;
+        line-height: 1px;
+        margin-top: 20px;
+    }
+    .ads p{
+        font-size: 12px;
+        text-align: center;
+        
+    }
+    .ads h3{
+        text-align: center;
+        font-size: 15px;
+    }
+    .ads h6{
+        font-size: 9px;
+        text-align: center;
+        
+    }
+    .blog-posts h2{
+        margin-left: 20px;
+    }
+    .blog-posts{
+        display: flex;
+        flex-direction: column;
+    } 
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    .top h6{
+        width: 55px;
+        height: 15px;
+        background-color: rgb(181, 182, 182);
+        color: aqua;
+        padding: 1px;
+        margin-left: 20px;
+    }
+    .top h1{
+        margin-left: 20px;
+    }
+    .top h1 a{
+        font-size: 12px;
+        font-weight: bolder;
+        
+    }
+    .top img{
+        width: 270px;
+        height: 200px;
+        margin-left: 20px;
+    }
+    .next{
+        display: flex;
+        flex-direction: column;
+            
+    }
+    .next h6{
+        width: 55px;
+        height: 15px;
+        background-color: rgb(181, 182, 182);
+        color: aqua;
+        padding: 1px;
+        margin-left: 20px;
+    }
+    .next h1{
+        margin-left: 20px;
+    }
+    .next h1 a{
+        font-size: 12px;
+        font-weight: bolder;
+    }
+    .next img{
+        width: 270px;
+        height: 200px;
+        margin-left: 20px;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        width: 94%;
+        margin-top: 40px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        text-transform: capitalize;
+        font-weight: lighter;
+        line-height: 20px;
+    }
+    .foot h2{
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    .link{
+        margin-left: 25px;
+        list-style-type: none;
+    }
+    .a p{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .d{
+        background-color: white;
+        height: 150px;
+        width: 230px;
+        padding: 15px;
+        margin: 10px;
+        margin-left: 20px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .d h2{
+        text-align: center;
+        margin-top: 5px;
+    }
+    .d h5{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .d input{
+      width: 210px;
+      margin-left: 18px;
+      margin-top: -2px;
+    }
+    .d button{
+    width: 220px;
+    height: 25px;
+    background-color: rgb(68, 0, 255);
+    color: white; 
+    border: none;
+    margin-left: 16px;
+    
+    }
+    hr{
+        margin-top: -2px;
+        background-color: #d01a1a;
+        width: 195px;
+    } 
+    .end{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        margin: px;
+        background-color: rgb(202, 202, 202);
+        justify-content: space-evenly;
+        width: 91%;
+    }
+    .e{
+        margin-left: 17px; 
+    }
+    .e img{
+        width: 80px;
+    }
+    .f{
+        display: flex;
+        flex-direction: row;
+        margin-left: 17px;
+    }
+    .linke{
+        margin-right: 10px;
+        list-style-type: none;
+        font-size: 10px;
+    }
+}   
+
+
+
+@media screen and (min-width: 351px) {
+    .log img{
+        width: 100px;
+        height: 36px;
+        
+    }
+    .links{
+        list-style-type: none;
+        
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    nav a:hover{
+        background-color: aqua;
+        color: blue;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .header-cont{
+        position: sticky;
+        display: flex;
+        justify-content: space-around;
+        padding: x;
+        margin: px;
+        background-color: rgb(253, 253, 253);
+        top: px;
+        width: 90.8%;
+    }
+    .lady img{
+        width:280px;
+        height: 150px;
+        padding: 10px;
+        margin-left: 3px;
+    }
+    .cont img{
+        width: 160px;
+        height: 100px;
+        margin-left: 35px;
+        margin-top: -200px;
+    }
+    .ads{
+        width: 180px;
+        height: 50px;
+        margin: 10px;
+        padding: 20px;
+        background-color: rgb(202, 202, 202);
+        margin-right: auto;
+        margin-left: auto;
+        line-height: 1px;
+        margin-top: 20px;
+    }
+    .ads p{
+        font-size: 12px;
+        text-align: center;
+        
+    }
+    .ads h3{
+        text-align: center;
+        font-size: 15px;
+    }
+    .ads h6{
+        font-size: 9px;
+        text-align: center;
+        
+    }
+    .blog-posts h2{
+        margin-left: 20px;
+    }
+    .blog-posts{
+        display: flex;
+        flex-direction: column;
+    } 
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    .top h6{
+        width: 55px;
+        height: 15px;
+        background-color: rgb(181, 182, 182);
+        color: aqua;
+        padding: 1px;
+        margin-left: 20px;
+    }
+    .top h1{
+        margin-left: 20px;
+    }
+    .top h1 a{
+        font-size: 12px;
+        font-weight: bolder;
+        
+    }
+    .top img{
+        width: 270px;
+        height: 200px;
+        margin-left: 20px;
+    }
+    .next{
+        display: flex;
+        flex-direction: column;
+            
+    }
+    .next h6{
+        width: 55px;
+        height: 15px;
+        background-color: rgb(181, 182, 182);
+        color: aqua;
+        padding: 1px;
+        margin-left: 20px;
+    }
+    .next h1{
+        margin-left: 20px;
+    }
+    .next h1 a{
+        font-size: 12px;
+        font-weight: bolder;
+    }
+    .next img{
+        width: 270px;
+        height: 200px;
+        margin-left: 20px;
+    }
+    .foot{
+        /* display: grid;
+        grid-template-columns: repeat(4, 250px);
+        justify-content: center;
+        background-color: rgb(202, 202, 202);
+        margin-top: 40px;
+        width: 99.7%;
+        padding: 5px;
+        top: 0px;
+        padding: 10px;
+        margin: -7.9px; */
+        display: flex;
+        flex-direction: column;
+        width: 94%;
+        margin-top: 40px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        text-transform: capitalize;
+        font-weight: lighter;
+        line-height: 20px;
+    }
+    .foot h2{
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    .link{
+        margin-left: 25px;
+        list-style-type: none;
+    }
+    .a p{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .d{
+        background-color: white;
+        height: 150px;
+        width: 230px;
+        padding: 15px;
+        margin: 10px;
+        margin-left: 20px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .d h2{
+        text-align: center;
+        margin-top: 5px;
+    }
+    .d h5{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .d input{
+      width: 210px;
+      margin-left: 18px;
+      margin-top: -2px;
+    }
+    .d button{
+    width: 220px;
+    height: 25px;
+    background-color: rgb(68, 0, 255);
+    color: white; 
+    border: none;
+    margin-left: 16px;
+    
+    }
+    hr{
+        margin-top: -2px;
+        background-color: #d01a1a;
+        width: 195px;
+    } 
+    .end{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        margin: px;
+        background-color: rgb(202, 202, 202);
+        justify-content: space-evenly;
+        width: 91%;
+    }
+    .e{
+        margin-left: 17px; 
+    }
+    .e img{
+        width: 80px;
+    }
+    .f{
+        display: flex;
+        flex-direction: row;
+        margin-left: 17px;
+    }
+    .linke{
+        margin-right: 10px;
+        list-style-type: none;
+        font-size: 10px;
+    }
+}   
+
+    
+    
+    
+
+
+
+
+
+
+
+https//:milesrykerodazie-portfolio.vercel.app
+
+vercel.com  
